@@ -180,6 +180,7 @@ header {
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .page-btn:hover,
@@ -308,6 +309,7 @@ header {
 .team-soc-item {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-linc {
@@ -321,13 +323,15 @@ header {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-linc:hover,
-.team-lins:focus {
+.team-linc:hover {
   bacground-color: #404bbf;
 }
 
+.team-lins:focus {
+  bacground-color: #404bbf;
+}
 .team-icons {
-  fill: white;
+  fill: #f4f4fd;
 }
 
 .team-image {
@@ -398,7 +402,7 @@ li:hover p {
   transform: translateY(100%);
   width: 100%;
   height: 100%;
-  transition: transform 250ms ease-in-out;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0;
 }
 .portfolio-image {
@@ -468,7 +472,9 @@ li:hover p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-linc:hover,
+.footer-linc:hover {
+  bacground-color: #31d0aa;
+}
 .footer-linc:focus {
   bacground-color: #31d0aa;
 }
