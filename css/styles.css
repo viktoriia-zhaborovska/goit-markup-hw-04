@@ -230,13 +230,6 @@ header {
   margin-bottom: 8px;
 }
 
-.feasures-icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-}
-
 .features-subtitle {
   line-height: 1.2;
   font-weight: 500;
@@ -422,9 +415,10 @@ li:hover p {
 }
 /*footer*/
 
-.container.footer {
+.container.footer-container {
   display: flex;
   align-items: baseline;
+  padding: 100px 0;
 }
 
 .logo-box {
@@ -432,7 +426,6 @@ li:hover p {
 }
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0;
 }
 .footer-logo {
   display: inline-block;
