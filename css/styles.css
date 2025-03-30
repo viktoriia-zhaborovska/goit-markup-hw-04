@@ -309,7 +309,6 @@ header {
 .team-soc-item {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-linc {
@@ -320,7 +319,7 @@ header {
   justify-content: center;
   border-radius: 50%;
   background-color: #4d5ae5;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-linc:hover {
@@ -458,7 +457,6 @@ li:hover p {
 .footer-soc-item {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-linc {
